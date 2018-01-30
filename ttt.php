@@ -1,4 +1,6 @@
 <?php 
+
+// This is a test
 require_once ("./source/dbconnect.php");
 
 $conn = db_connect();
@@ -9,7 +11,7 @@ $first_name = $_SESSION['first_name'];
 $last_name = $_SESSION['last_name'];
 $email = $_SESSION['email'];
 $phone= $_SESSION['phone'];
-$pais= $_SESSION['pais'];
+$country= $_SESSION['pais'];
 $edad = $_SESSION['edad'];
 
 $token = $_POST['stripeToken'];
